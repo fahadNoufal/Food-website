@@ -1,0 +1,430 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #FAF3E3;
+    padding:2% 1% 0;
+}
+.background-img{
+    background-image: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg);
+    background-position: center;
+
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    background-size: cover;
+    position:relative;
+    height: 600px;
+    background-color:black;
+    opacity: 0.9;
+}
+.intro-container{
+    position: absolute;
+    padding:5% 15%;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+/*  Navbar  */
+.navbar{
+    vertical-align:middle;
+}
+.logo{
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bolder;
+    opacity: 2;
+    font-family: serif;
+    transition:0.3s;
+}
+
+.container-fluid button:hover{
+    color:black;
+    background-color: white;
+}
+.container-fluid button{
+    background-color: rgba(0, 0, 0, 0.27);
+    color:white;
+    margin-right: 35px;
+    transition: background-color 0.3s,color 0.3s;
+}
+
+.nav-item a{
+    color: black;
+    margin: 0 35px;
+    border-radius: 5px;
+    padding: 1px 70px;
+    transition: background-color 0.3s , color 0.3s,
+    padding 0.3s,font-weight 0.3s;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.393);
+}
+
+        /* navbar-hover*/
+.nav-item a:hover{
+    background-color: rgba(255, 68, 0, 0.656);
+    padding:4px 40%;
+    color:#faf3e3;
+    font-weight: 700;
+}
+.logo:hover{
+    color: orangered;
+    font-size: 2.8rem;
+}
+/*text inside main image
+    -content-box-   */
+
+.content-box{
+    color:black;
+    text-align: center;
+    padding: 10%;
+    color:white;
+}
+.content-box p{
+    
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 4px;
+    
+
+}
+.heading-1{
+    margin: 20px 0;
+    font-size:2.6rem;
+    font-family: serif;
+    background-color:#faf3e344;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color:black;
+    transition: 0.3s;
+}
+.heading-1:hover{
+    font-size:2.4rem;
+}
+.heading-2{
+    font-size: 1.5rem;
+    font-weight:0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    letter-spacing: 3px;
+    background-image: url(https://www.usda.gov/sites/default/files/nal-cultural-traditions-food-blog-051622.jpg);
+
+}
+
+
+/* box- 1 */
+h2{
+    font-size: 3rem;
+    line-height: 1.1 ;
+}
+.box-1 h2{
+    width: 55%;
+    margin: 3% 4%;
+}
+.box-1.text-1 span{
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+.small-content{
+    width:45%;
+    margin-left:auto ;
+    font-size: 0.9rem;
+    margin-right: 4%;
+    margin-top: -4%;
+}
+.shawarma-img{
+    width: 100px;
+    margin-left: 33%;
+    margin-bottom: -60px;
+    transition: transform 0.5s;
+
+}
+.shawarma-img:hover{
+    transform: rotate(360deg);
+}
+
+/* ROW -1 CONTENT*/
+
+.row-1{
+    padding:5% 4%;
+    text-align: right;
+}
+
+.breakfast-box{
+    display: flex;
+}
+.extra-breakfast-text{
+    padding-top:65%;
+    text-align: left;
+    margin-left:4%;
+    width: 70%;
+}
+.row-1 h2{
+    margin-left: auto;
+    color: rgb(105, 105, 105);
+}
+.row-1 .orange-background-1{
+    background-color: #FF9F29;
+    margin-left: 15%;
+    height: 700px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding:22% 0;
+    position: relative;
+    
+    
+}
+.row-1 .image-1{
+    width: 80%;
+    position: absolute;
+    top:32%;
+    left: -30%;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.611) ;
+    transition: 0.3s;
+}
+.row-1 .image-1:hover{
+    width: 83%;
+}
+.row-1 .image-2{
+    width: 70%;
+    position: absolute;
+    top:18%;
+    right: -30%;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.611) ;
+    transition: 0.3s;
+
+}
+.row-1 .image-2:hover{
+    width: 73%;
+}
+
+/* FOUR COLUMN BOX*/
+.four-col-box{
+    padding:1% 8%
+}
+
+.four-col-box h2{
+    width: 80%;
+    line-height: 1;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.four-col-box span{
+    font-weight: 700;
+}
+.four-col-box img{
+    height:100px;
+}
+.four-col-box .col-lg-5{
+    padding-right: 4%;
+}
+.four-col-box p{
+    color: rgb(89, 89, 89);
+}
+h4{
+    font-weight: 700;
+}
+.read-more{
+    text-decoration: underline;
+    margin-left: 8%;
+    margin-top: -11px;
+    color: gray;
+}
+
+
+/*row -2 (CAFE MENU)*/
+.row-2{
+    padding:3% 30%;
+    margin-left: -3%;
+
+}
+
+ .row-2 .orange-screen{
+     background-color: #FF9F29;
+     padding-bottom: 20%;
+}
+
+.orange-screen img{
+    width: 85%;
+    margin-left: -45%;
+    margin-top: 17%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.47);
+    transition: 0.3s;
+}
+.row-2 img:hover{
+    width: 88%;
+    margin-top:16%;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.604);
+}
+.row-2 .inside-text{
+    margin-left: 48%;
+    width: 125%;
+    margin-top: -25%;
+
+}
+
+/* BBQ AND NOODLES SECTION*/
+.row-3{
+    padding: 0 3%;
+}
+.row-3 img{
+    height: 250px;
+    width: 260px;
+    object-fit: cover;   
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.359);
+    transition: 0.3s;
+}
+.row-3 img:hover{
+    height: 260px;
+    width: 270px;
+}
+.row-3 .text h4{
+    color: rgb(96, 96, 96);
+}
+
+/* CONTACT SECTION*/
+
+.contact-section{
+    margin-top: 30px;
+    width:100%;
+    position: relative;
+
+}
+.contact-section .background{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    z-index: -3;
+}
+.contact-img{
+    width:14%;
+}
+.contact-items{
+    text-align: center;
+    padding-top: 4%;
+}
+.contact-items h2{
+    font-size: 225%;
+    font-weight: bold;
+}
+.contact-icons img{
+    width: 6%;
+    padding:1% 1.5%;
+}
+.copy-right{
+    font-family: serif;
+    font-size: 1rem;
+    margin-top: -1.8%;
+}
+
+
+.delivery-img{
+    position: absolute;
+    width: 130px;
+    top:100px;
+    right: 39%;
+    transition: 0.5s;
+}
+.delivery-text{
+    position: absolute;
+    top:145px;
+    right: 20%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #ffd439;
+    padding: 0.3% 0.8%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.158);
+    border-radius: 8px;
+}
+.delivery-img:hover{
+    right: 44%;
+}
+
+
+
+/* Responsive */
+
+@media (max-width:768px) {
+    .row-1 .orange-background-1{
+        height: 400px;
+        margin-top: -50px;
+    }
+}
+@media (max-width:992px) {
+    .nav-item a{
+        margin-left: 0px; 
+    }    
+    .box-1 h2{
+        width: 90%;
+    }
+    .breakfast-heading{
+        text-align: left;
+    }
+    .extra-breakfast-text{
+        padding-top: 0;
+        margin: 70px 0 100px;
+    }
+    .shawarma-img{
+        margin-left: 5%;
+    }.small-content{
+        margin-left:30%;
+    }
+    .row-3 .bbq-col,.noodles-col{
+        text-align: right;
+    }
+    .bbq-row,.noodles-row{
+        margin-top:50px ;
+    }
+}
+@media (max-width:490px) {
+    .logo{
+        font-size: 32px;
+    }
+    .container-fluid button{
+        margin-right: 0;
+    }
+    .nav-item a{
+        margin: 0;
+    }
+    .heading-2{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .shawarma-img{
+        width: 20%;
+    }
+    .row-1 .orange-background-1{
+        margin-left: 20%;
+        height: 300px;
+    }
+    .small-content{
+        width: auto;
+        margin-bottom: 50px;
+    }
+    .row-2 .inside-text{
+        margin-top: -65%;
+    }
+    .inside-text h2{
+        font-weight: 700;
+    }
+    .inside-text p{
+        font-size: 0.8rem;
+    }
+    .row-3 .bbq-col,.noodles-col{
+        text-align: center;
+    }
+    .row-3 .text{
+        margin:3% 11%;
+    }
+    .noodles-row{
+        margin-top: 30px;
+    }
+    .contact-section .background{
+        height: 200px;
+    }
+
+}
